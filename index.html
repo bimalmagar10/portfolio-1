@@ -52,7 +52,7 @@
 						<div>
 							<a href="https://www.facebook.com/Bimalmagar770077" class="social-links" target="_blank"><i class="fa fa-facebook-square"></i></a>
 							<a href="https://www.instagram.com/bimal_thapamagar/?hl=en" class="social-links" target="_blank"><i class="fa fa-instagram"></i></a>
-							<a href="alert.html" class="social-links" target="_blank"><i class="fa fa-github-square"></i></a>
+							<a href="" class="social-links github" target="_blank"><i class="fa fa-github-square"></i></a>
 						</div>
 					</div>
 				</div>
@@ -215,7 +215,7 @@
 			<div class="col-1-of-2">
 				<a href="https://www.facebook.com/Bimalmagar770077" class="social-links" target="_blank"><i class="fa fa-facebook-square"></i></a>
 				<a href="https://www.instagram.com/bimal_thapamagar/?hl=en" class="social-links" target="_blank"><i class="fa fa-instagram"></i></a>
-				<a href="alert.html" class="social-links" target="_blank"><i class="fa fa-github-square"></i></a>
+				<a href="#" class="social-links github" target="_blank"><i class="fa fa-github-square"></i></a>
 			</div>
 		</div>
 		<div class="footer_end u-text-center">
@@ -234,5 +234,17 @@
 			<div class="col-1-of-2">Col  1 of 2</div>
 		</div>
 	</secion> -->
+	<script>
+		window.onload = () => {
+				var alertMessage = Array.from(document.querySelectorAll(".github"));
+				alertMessage.forEach(element => element.addEventListener("click",(e) => {
+					e.preventDefault();
+					alert("LINK WILL BE ADDED SOON");
+				}));
+			}
+		
+		
+		
+	</script>
 </body>
 </html>
